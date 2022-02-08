@@ -1,12 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Tracker</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./assets/style.css" />
+    <title>Lets know the Weather</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Current Weather</h1>
+
+    </header>
+    <main class="container">
+        <section class="insertarea">
+            <div class="search-container">
+                <form>
+                    <label>Search for a City</label>
+                    <input type="text" placeholder="Search.." id="letssearch" name="search"><button type="submit"
+                        title="Search"><i class="fa fa-search"></i></button>
+                </form>
+            </div>
+            <hr />
+            <ul id="listofplaces" class="list-group">
+
+            </ul>
+        </section>
+        <section class="weather">
+            <div class="theday">
+                <h2><span id="nameofcity"></span> (<span id="todaysdate"></span>) <img id="forecastsymbol"></img></h2>
+                <p>Temperature: <span id="degrees" class="temperature"></span></p>
+                <p>Humidity: <span id="sweatyaf"></span></p>
+                <p>Wind Speed: <span id="windy"></span></p>
+                <p>UV Index: <span id="uvindex"></span></p>
+            </div>
+            <div class="fivedayforecast">
+                <h3>5-Day Forecast : </h3>
+                <div class="tomorrow">
+        
+            
+
+                </div>
+            </div>
+ 
+        </section> -->
+    </main>
+
+    <script src="./assets/script.js"></script>
 </body>
+
 </html>
