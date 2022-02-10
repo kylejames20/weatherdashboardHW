@@ -17,9 +17,9 @@
     <main class="container">
         <section class="insertarea">
             <div class="search-container">
-                <form>
+                <form id="form">
                     <label>Search for a City</label>
-                    <input type="text" placeholder="Search.." id="letssearch" name="search"><button type="submit"
+                    <input type="text" placeholder="Search here" id="letssearch" name="search"><button type="submit"
                         title="Search"><i class="fa fa-search"></i></button>
                 </form>
             </div>
@@ -30,22 +30,51 @@
         </section>
         <section class="weather">
             <div class="theday">
-                <h2><span id="nameofcity"></span> (<span id="todaysdate"></span>) <img id="forecastsymbol"></img></h2>
+                <h2>
+                    <div id="nameofcity"></div>
+                    <div id="todaysdate"></div>
+                    <img id="forecastsymbol"></img>
+                </h2>
                 <p>Temperature: <span id="degrees" class="temperature"></span></p>
                 <p>Humidity: <span id="sweatyaf"></span></p>
                 <p>Wind Speed: <span id="windy"></span></p>
                 <p>UV Index: <span id="uvindex"></span></p>
             </div>
-            <div class="fivedayforecast">
-                <h3>5-Day Forecast : </h3>
-                <div class="tomorrow">
-        
-            
 
-                </div>
+            <div class="fivedayforecast">
+                <h3>5-Day Forecast: </h3>
+                <div class="tempdays"></div>
+                <div class="tempdays"></div>
+                <div class="tempdays"></div>
+                <div class="tempdays"></div>
+                <div class="tempdays"></div>
             </div>
- 
-        </section> -->
+            <div class="fivedayforecast">
+                <h3>5-Day Humidity: </h3>
+                <div class="humdays"></div>
+                <div class="humdays"></div>
+                <div class="humdays"></div>
+                <div class="humdays"></div>
+                <div class="humdays"></div>
+            </div>
+            <div class="fivedayforecast">
+                <h3>5-Day Wind: </h3>
+                <div class="winddays"></div>
+                <div class="winddays"></div>
+                <div class="winddays"></div>
+                <div class="winddays"></div>
+                <div class="winddays"></div>
+            </div>
+            <div class="fivedayforecast">
+                <h3>5-Day uvIndex: </h3>
+                <div class="uvdays"></div>
+                <div class="uvdays"></div>
+                <div class="uvdays"></div>
+                <div class="uvdays"></div>
+                <div class="uvdays"></div>
+            </div>
+
+        </section>
     </main>
 
     <script src="./assets/script.js"></script>

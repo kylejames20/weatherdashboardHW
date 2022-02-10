@@ -9,7 +9,7 @@ The search box saves past searches.
 
 Below, find attached links to Github repository and deployed finished project.
 
-![Weather Dashboard site screen shot]()
+![Weather Dashboard site screen shot](./assets/weather.png)
 
 [Live link to site](https://kylejames20.github.io/weatherdashboardHW/)
 

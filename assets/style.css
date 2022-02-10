@@ -1,20 +1,116 @@
 body {
     font-family: 'Open Sans', sans-serif;
     /* background-color: black; */
-  }
-  header{
-    background-color: black;
-    border-bottom: 10px solid black;
-    color: white;
-    text-align: center;
-  }
-  
-  button{
+}
+
+button {
     background-color: black;
     border-color: white;
     border-radius: thin;
     border-style: dotted;
     color: white;
     height:30px;
+}  
+  
+header {
+    background-color: black;
+    border-bottom: 10px solid black;
+    color: white;
+    text-align: center;
+}
+  input {
+    display: inline-flexbox;
+    margin: 1px;
+    width: auto;
   }
+
+.container {
+    display: flex;
+    margin-left: 0px;
+    margin-right: 10px;
+}
+  
+.insertarea {
+    width: 25%;
+    height: 100vh;
+    border-right: 5px dotted black;
+    flex:1;
+}
+
+.insertarea ul {
+    list-style: none;
+    float: left;
+    line-height: 1.2em;
+  }
+
+.insertarea ul li {
+    cursor: pointer;
+    margin: 0;
+  }
+
+.search-container {
+    display: block;
+    padding-top: 10px;
+}
+
+.search-container label {
+    display: block;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.weather {
+    flex: 10;
+}
+
+.theday {
+    border: 5px dotted black;
+    margin: 5px;
+    padding: 5px;
+}
+  
+.fivedayforecast {
+    display: inline;
+    border-color: black;
+    flex-direction: column;
+    justify-content: center;
+    margin: 60px;
+    padding: 50%;
+}
+
+.fivedays {
+    align-items: center;
+    border-width: thin;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    margin-left: 7%;
+    margin-right: 17%;
+
+}
+  
+/* .comingDays span {
+    display: inline-block;
+    margin: 5px;
+    padding-left: 5px;
+    width: 125px;
+    height: 175px;
+    background-color:blue;
+    border-radius: 10px;
+    color: white;
+    line-height: 1.3em;
+    opacity:0.6;
+    font-size: 12px;
+}
+
+.temperature:after {
+    content:" \2103";
+}
+
+#uv_index {
+    padding: 5px;
+    border-radius: 5px;
+}
+
 
