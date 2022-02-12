@@ -76,6 +76,7 @@ header {
     justify-content: center;
     margin: 60px;
     padding: 50%;
+    align-items: center;
 }
 
 .fivedays {
