@@ -3,7 +3,7 @@ let listOfCities = [];
 
 
 async function getLatAndLon(cityName){
-    let geoCode = await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=${forecastAPIKey}`)
+    let geoCode = await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${cityName}&limit=5&appid=${forecastAPIKey}`)
     .then(response => {
         if (response.status === 200) {
             return response.json()
